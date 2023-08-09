@@ -1,41 +1,20 @@
 {
-  "_from": "@incubiq/siww@^1.1.1",
-  "_id": "@incubiq/siww@1.1.1",
-  "_inBundle": false,
-  "_integrity": "sha512-SzcrZZanObdvr/PmD1ZW2wL/JipVLDc6x5EEVBHMi+dDFsL2tVO1wAXcjxzXj2318p5iMKDjr2GgARFEly0QNg==",
-  "_location": "/@incubiq/siww",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "@incubiq/siww@^1.1.1",
-    "name": "@incubiq/siww",
-    "escapedName": "@incubiq%2fsiww",
-    "scope": "@incubiq",
-    "rawSpec": "^1.1.1",
-    "saveSpec": null,
-    "fetchSpec": "^1.1.1"
+  "name": "wd-siww",
+  "version": "1.0.0",
+  "description": "Sign in with Ethereum and Cardano Wallets by siww",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/@incubiq/siww/-/siww-1.1.1.tgz",
-  "_shasum": "3e4525b1bb533ac2376974e3ffc82e8674fef662",
-  "_spec": "@incubiq/siww@^1.1.1",
-  "_where": "C:\\Users\\sppow\\Documents\\Web Projects For Clients\\Working-Dead-Frontend",
-  "author": {
-    "name": "Eric Duneau",
-    "email": "eric@incubiq.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanneh2/wd-siww.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not op_mini all"
-  ],
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "Sign-In with Wallet JS libs",
+  "author": "siww",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanneh2/wd-siww/issues"
+  },
   "devDependencies": {
     "@blockfrost/blockfrost-js": "^5.1.0",
     "@emurgo/cardano-message-signing-asmjs": "^1.0.1",
@@ -45,35 +24,5 @@
     "http2": "^3.3.7",
     "web3": "^1.8.1"
   },
-  "engines": {
-    "node": ">= 0.6"
-  },
-  "files": [
-    "libs/",
-    "History.md",
-    "LICENSE",
-    "index.js",
-    "Readme.md"
-  ],
-  "keywords": [
-    "siww",
-    "wallet oauth",
-    "wallet authentication",
-    "siwc",
-    "siwcjs",
-    "sign with cardano",
-    "sign with metamask",
-    "sign with keplr",
-    "sign-in with wallet",
-    "authentication"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "@incubiq/siww",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/incubiq/sign_in_with_wallet/npm_siww/"
-  },
-  "scripts": {},
-  "version": "1.1.1"
+  "homepage": "https://github.com/sanneh2/wd-siww#readme"
 }
