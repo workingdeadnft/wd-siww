@@ -1,6 +1,6 @@
 {
   "name": "wd-siww",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sign in with Ethereum and Cardano Wallets by siww",
   "main": "index.js",
   "scripts": {
