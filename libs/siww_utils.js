@@ -43,7 +43,7 @@ export const checkIsValidDomain = (url) => {
             return true;
         } */
   var re = new RegExp(
-    /^((?:(?:(?:\w[\.\-\+]?)*)\w)+)((?:(?:(?:\w[\.\-\+]?){0,62})\w)*)(\.\w{2,6})$/
+    /^((?:(?:(?:\w[\.\-\+]?)*)\w)+)((?:(?:(?:\w[\.\-\+]?){0,62})\w)*)(\.\w{2,7})$/
   );
   if (url.match(re)) {
     return true;
