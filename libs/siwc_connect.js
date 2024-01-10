@@ -171,6 +171,11 @@ export class siwc_connect extends siww_connect {
                 const _firstAddress = Address.from_bytes(Buffer.from(aRaw[0], "hex")).to_bech32()
                 return _firstAddress
             }
+            const aRawUnused = await _api.getUnusedAddresses();
+            if (aRawUnused && aRawUnused.length > 0) {
+                const _firstAddress = Address.from_bytes(Buffer.from(aRaw[0], "hex")).to_bech32()
+                return _firstAddress
+            }
             else {
                 throw new Error("Could not access first address of wallet");
             }
