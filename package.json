@@ -1,6 +1,6 @@
 {
   "name": "wd-siww",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sign in with Ethereum and Cardano Wallets by siww",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanneh2/wd-siww.git"
+    "url": "git+https://github.com/workingdeadnft/wd-siww.git"
   },
   "author": "siww",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sanneh2/wd-siww/issues"
+    "url": "https://github.com/workingdeadnft/wd-siww/issues"
   },
   "devDependencies": {
     "@blockfrost/blockfrost-js": "^5.1.0",
@@ -24,5 +24,5 @@
     "http2": "^3.3.7",
     "web3": "^1.8.1"
   },
-  "homepage": "https://github.com/sanneh2/wd-siww#readme"
+  "homepage": "https://github.com/workingdeadnft/wd-siww#readme"
 }
